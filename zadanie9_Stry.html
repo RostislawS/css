@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            p {font-size:17px; font-family: Arial, Helvetica, sans-serif;}
+            h1 {font-size:25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        </style>
+    </head>
+
+        <body>                      
+            
+        <ol type="1">
+
+<h1><li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+        ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1>
+
+                <fieldset><p>Styl zewnętrzny jest wstawiany w części nagłówkowej dokumentu,<br>
+                znacznik <b>style</b> jest za to odpowiedzialny,<br> 
+                można dołączyć <b><u>dowolną liczbę</u></b> zewnętrznych arkuszy stylów 
+                </fieldset></p>
+
+
+<h1><li>Jak jest najprostsza forma wstawiania stylu zewnętrznego?</h1>
+
+                <fieldset><p><textarea rows="2" cols="55">
+<link rel="Stylesheet" type="text/css" href="style.css">
+                </textarea></p></fieldset>
+
+
+<h1><li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+        musi być zachowana przy większej ilości dołączanych styli?</h1>
+
+                <fieldset><p>Można dołączyć dowolną liczbęzewnętrznych arkuszy stylów. Każdy musi być dołączony jako osobny element LINK. </p></fieldset>
+
+
+<h1><li>Co się dzieje w przypadku konfliktów?</h1>
+
+                <fieldset><p>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.</p></fieldset>
+
+
+<h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1>
+
+                <fieldset><p>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym.
+                    Do tworzenia i edytowania wystarczy zwykły edytor tekst.
+                </p></fieldset>
+
+
+<h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1>
+
+                <fieldset><p>Arkusz stylów jest zwykłym plikiem tekstowym, zapisuje się go w rozszerzeniu <b>*.css</b></p></fieldset>
+
+
+<h1><li>Jakie rozszerzenie posiada plik będący zewnętrznym arkuszem styli?</h1>
+
+                <fieldset><p>Rozszerzenie <b>*.css</b></p></fieldset>
+
+
+<h1><li>Jakie są zalety zewnętrznego arkusza styli?</h1>
+
+                <fieldset><ol type="a" style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;" >
+                    <li>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.<br><br>
+                    <li>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich
+                        stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez
+                        konieczności zmiany każdej strony osobno. 
+                </ol></fieldset>
+
+
+<h1><li>Uwagi na temat pisania w CSS</h1>
+
+                <fieldset><p>Część poleceń stylów nie jest interpretowana przez niektóre przeglądarki internetowe lub jest
+                    obsługiwana odmiennie. Dlatego zawsze należy sprawdzać efekty w praktyce - jeśli to
+                    możliwe, to najlepiej w kilku najbardziej popularnych przeglądarkach: Microsoft Internet
+                    Explorer, Netscape/Mozilla/Firefox (czyli przeglądarki oparte na silniku Gecko), Opera. 
+                </p></fieldset>
+        </body>
+</html>
