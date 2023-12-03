@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <style>
+      table{
+         border: 10px black solid;
+      }
+      td{
+         border: 5px gray solid;
+      }
+   </style>
+</head>
+<body>
+   <table>
+      <tr>
+         <td> Kolor tła </td>
+         <td>
+            Dzięki temu poleceniu można ustalić kolor tła dla danego elementu <br> 
+            Składania: selektor {background-color: kolor;} <br>
+            Przykład, ustawienie koloru strony na czerwony : body {backgorund-color: red; }
+         </td>
+      </tr>
+      <tr>
+         <td> Tło brazkowe </td>
+         <td> 
+            Dzięki temu poleceniu można ustalić tło obrazkowe dla danego elementu <br>
+            Składnia: selektor {background-image: url(adres);} <br> 
+            Przykład, ustawienie tła strony na obraz "tlo_1.png": background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");
+         </td>
+      </tr>
+      <tr>
+         <td> Powtarzanie tła </td>
+         <td>
+            Dzięki temu poleceniu można ustalić jeden z czterech sposobów powtarzania się obrazka jako tła <br>
+            Składania: selektor {background-repeat: powtarzanie;} <br>
+            Przykład, wyłączenie powtarzania tła: body {backgorund-repeat: no-repeat;}
+         </td>
+      </tr>
+      <tr>
+         <td> Pozycja tła </td>
+         <td>
+            Dzięki temu poleceniu można ustalić pozycję obrazka w ramach tła <br>
+            Składania: selektor {background-position: pozycja;} <br>
+            Przykład, ustawienie tła w lewym górym rogu strony: body {background-position: left top;}
+         </td>
+      </tr>
+      <tr>
+         <td> Zaczepienie tła </td>
+         <td>
+            Poleceniem tym można sprawić, że tło będzie nieruchome w czasie przewijania zawartości strony <br>
+            Składania: selektor {background-attachment: zaczepienie;} <br>
+            Przykład, ustawienie przewijania tła: body {background-attachment:scroll;}
+         </td>
+      </tr>
+      <tr>
+         <td> Łączenie atrybutów tła </td>
+         <td>
+            Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące tła <br>
+            Składania: selektor {background: wartości atrybutów;} <br>
+            Przykład, ustawienie tła na kolor zielony, z obrazkiem tlo_css.jpg, bez powtarzania, z przewijaniem, wycentrowane, i kolor czcionki na bordowy: body {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) no-repeat scroll center;}
+         </td>
+      </tr>
+      <tr>
+         <td> Gradient liniowy </td>
+         <td>
+            Gradient to wypełnienie tłem płynnym przejściukilku kolorów <br>
+            Składania: body {background: linear-gradient(kierunek, kolor 1, kolor 2);}   <br>
+            Przykład, ustawienie tła na gradien czarno biały, z góry do dołu: background: linear-gradient(to bottom, black 0%, white 100%)
+         </td>
+      </tr>
+      <tr>
+         <td> Gradient promienisty </td>
+         <td>
+            Gradient promienistyto tło o płynnym przejściem kilku kolorów, wywołując efekt trójwymiarowej kuli lub oświetlenia latarki <br>
+            Składnia: selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) } <br>
+            Przykład, ustawienie gradientu czarno białego: radial-gradient(white, black)
+         </td>
+      </tr>
+
+   </table>
+</body>
+</html>
